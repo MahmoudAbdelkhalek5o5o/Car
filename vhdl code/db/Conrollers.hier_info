@@ -1,0 +1,11 @@
+|Conrollers
+a => m11.DATAIN
+a => m12.DATAIN
+b => bout.DATAIN
+m11 << a.DB_MAX_OUTPUT_PORT_TYPE
+m12 << a.DB_MAX_OUTPUT_PORT_TYPE
+m21 << <VCC>
+m22 << <GND>
+bout << b.DB_MAX_OUTPUT_PORT_TYPE
+
+
